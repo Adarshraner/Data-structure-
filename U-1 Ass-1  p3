@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
  int book[5];
- int temp; // Input Book IDs
+ int temp; 
  cout << "Enter IDs of 5 Library Books:\n";
  for (int i = 0; i < 5; i++)
  {
