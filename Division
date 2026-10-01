@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float a, b;
+
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+
+    if (b != 0) {
+        float division = a / b;
+        cout << "Division = " << division;
+    } else {
+        cout << "Cannot divide by zero.";
+    }
+
+    return 0;
+}
